@@ -1,0 +1,156 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsthm,amsxtra,amssymb}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{moreverb}
+\usepackage{epsfig}
+
+\newtheorem{satz}{Satz}
+\newtheorem{thm}[satz]{Theorem}
+\newtheorem{exercise}[satz]{Aufgabe}
+
+\begin{document}
+
+\pagestyle{empty}
+\parindent 0cm
+\begin{minipage}{14cm}
+\footnotesize{\textbf{HOCHSCHULE} \hfill Dipl.-Math. Xenia Bogomolec\\
+\textbf{HANNOVER}\\
+UNIVERSITY OF\\
+APPLIED SCIENCES\\
+AND ARTS
+}
+\end{minipage}
+\vspace{1.0cm}
+
+\begin{center}
+ {\Large \bf Br\"uckenkurs Mathematik} \\
+ \vspace{0.5cm}
+ {\large L\"osungen zum \"Ubungsblatt 3 (Vektoren)}  \\
+
+\end{center}
+\vspace{0.5cm}
+\normalsize
+\parindent0cm
+
+\begin{exercise}
+  Berechnen Sie die L\"angen der Vektoren \\
+  $\vec{u}=\left(\begin{array}{r} 3 \\ 5 \\ -12 \end{array}\right)$,
+  $\vec{v}=\left(\begin{array}{r} 1 \\ 3 \\ 7 \end{array}\right)$ und
+  $\vec{w}=\left(\begin{array}{r} 11 \\ 1 \\ -3 \end{array}\right)$. \\ 
+
+  \vspace{0.1cm}
+
+  $|\vec{u}| = \sqrt{9+25+144} = \sqrt{178}$\\
+  $|\vec{v}| = \sqrt{1+9+49} = \sqrt{59}$\\
+  $|\vec{w}| = \sqrt{121+1+9} = \sqrt{131}$ 
+
+\end{exercise}
+
+\vspace{0.1cm}
+
+\begin{exercise}
+  Gegeben seien die Vektoren
+  $\vec{a}=\left(\begin{array}{r} 1 \\ 3 \end{array}\right)$,
+  $\vec{b}=\left(\begin{array}{r} -2 \\ 5 \end{array}\right)$,\\
+  $\vec{c}=\left(\begin{array}{r} 3 \\ 17 \end{array}\right)$ und
+  $\vec{d}=\left(\begin{array}{r} 8 \\ -4 \end{array}\right)$.
+  \begin{enumerate}
+  \item[(a)] Berechnen und zeichnen Sie
+      \begin{enumerate}
+      \item[(i)] $\vec{a}+\vec{b}+\vec{c}=\left(\begin{array}{r} 2 \\ 25 \end{array}            \right)$
+      \item[(ii)] $\vec{b}-\vec{d}+\vec{a}=\left(\begin{array}{r} -9 \\ 12 \end{array}              \right)$
+      \item[(iii)] $\frac{1}{2}\vec{a}+\frac{1}{5}\vec{b}-3\vec{d}=\left(\begin{array}{r} -23\frac{9}{10} \\ 14\frac{1}{2} \end{array}\right)$
+      \end{enumerate}
+  \item[(b)] Berechnen Sie jeweils den Winkel $\varphi$ zwischen den Vektoren
+    \begin{enumerate}
+      \item[(i)] $\vec{a}$ und $\vec{b}:$\\
+                 $\vec{a}\cdot\vec{b}=13, \,\vert\vec{a}\vert=\sqrt{10}, \, \vert\vec{b}\vert=\sqrt{29} \\ 
+                 \Rightarrow \cos{\varphi}=\frac{13}{\sqrt{290}}=0,76339 \Leftrightarrow \varphi = 42,79^\circ$
+      \item[(ii)] $\vec{a}$ und $\vec{d}:$\\
+                  $\varphi$ ist gleich dem Winkel zwischen $\vec{a}$ und $\frac{1}{4}\vec{d}$\\
+                  $\vec{a}\cdot\frac{1}{4}\vec{d}=-1, \,\vert\vec{a}\vert=\sqrt{10}, \, \vert\frac{1}{4}\vec{d}\vert=\sqrt{5} \\ 
+                 \Rightarrow \cos{\varphi}=\frac{-1}{\sqrt{50}}=\frac{-1}{5\sqrt{2}} \Leftrightarrow \varphi = 98,13^\circ$
+      \end{enumerate}
+    \item[(c)] W\"ahlen Sie zwei Vektoren in $\mathbb{R}^2$ mit dem Zwischenwinkel $\varphi=45^\circ$. Was ist der Wert von $\cos{\varphi}$? Zeigen Sie mit der Formel aus dem Br\"uckenkurs, warum sich der Wert nicht  ver\"andert, wenn man die Vektoren mit unterschiedlichen Faktoren streckt. \\ \\
+        Zum Beispiel $\vec{a}=\left(\begin{array}{r} 1 \\ 0 \end{array}\right)$ und
+          $\vec{b}=\left(\begin{array}{r} 2 \\ 2 \end{array}\right)$\, \\
+          $\cos{\varphi}=\frac{1}{\sqrt{2}}=\frac{\sqrt{2}}{2}$ \\ \\
+          Seien $\vec{a}=\left(\begin{array}{r} a_1 \\ a_2 \end{array}\right)$,
+          $\vec{b}=\left(\begin{array}{r} b_1 \\ b_2 \end{array}\right) \in \mathbb{R}^2$
+          und $r,s \in \mathbb{R}$. Dann gilt:
+          $\cos{\varphi}=\frac{\vec{a}\cdot\vec{b}}{\vert\vec{a}\vert \cdot \vert\vec{b}\vert}=
+          \frac{a_1\cdot b_1+a_2\cdot b_2}{\sqrt{a_1^2+a_2^2}\cdot\sqrt{b_1^2+b_2^2}}
+          = \frac{rs(a_1\cdot b_1+a_2\cdot b_2)}{rs\sqrt{(a_1^2+a_2^2)}\cdot\sqrt{(b_1^2+b_2^2)}}\\
+          \quad=\frac{ra_1\cdot sb_1+ra_2\cdot sb_2}{\sqrt{r^2(a_1^2+a_2^2)}\cdot\sqrt{s^2(b_1^2+b_2^2)}}
+          =\frac{r\vec{a}\cdot s\vec{b}}{\vert r \vec{a}\vert \cdot \vert s\vec{b}\vert}$
+  \end{enumerate}
+\end{exercise}
+
+\vspace{0.1cm}
+   
+\begin{exercise}
+  Berechnen Sie $\vec{u}\times \vec{v}$ f\"ur
+  $\vec{u}=\left(\begin{array}{r} 2 \\ -1 \\ 4 \end{array}\right)$ und
+  $\vec{v}=\left(\begin{array}{r} 4 \\ 3 \\ 7 \end{array}\right)$.\\
+  \begin{enumerate}
+    \item[]
+      $\vec{u}\times \vec{v}
+      =\left(\begin{array}{r} (-1)\cdot7 - 4\cdot3 \\ 4\cdot4 - 2\cdot7 \\ 2\cdot3 - (-1)\cdot 4 \end{array}\right)
+      =\left(\begin{array}{r} -7-12 \\ 16-14 \\ 6+4 \end{array}\right)
+      =\left(\begin{array}{r} -19 \\ 2 \\ 10 \end{array}\right) $\\
+  \end{enumerate}
+\end{exercise}
+
+\vspace{0.1cm}
+
+
+\begin{exercise}
+  Berechnen Sie jeweils die Seitenl\"angen und den Fl\"acheninhalt des Dreiecks mit den Eckpunkten A,B und C:
+  \begin{enumerate}
+  \item[(a)] $A=(1,0),B=(3,5),C=(5,0):$\\ \\
+              $\vec{a}=\left(\begin{array}{r} 3-1 \\ 5-0 \end{array}\right)
+              =\left(\begin{array}{r} 2 \\ 5 \end{array}\right)\Rightarrow
+              \,\vert\vec{a}\vert=\sqrt{29}$,\\
+              $\vec{b}=\left(\begin{array}{r} 5-3 \\ 0-5 \end{array}\right)
+              = \left(\begin{array}{r} 2 \\ -5 \end{array}\right)\Rightarrow
+              \,\vert\vec{b}\vert=\sqrt{29}$, \\
+              $\vec{c}=\left(\begin{array}{r} 1-5 \\ 0-0 \end{array}\right)
+              =\left(\begin{array}{r} 4 \\ 0 \end{array}\right)\Rightarrow
+              \,\vert\vec{c}\vert=\sqrt{16}=4$\\ \\
+              Fl\"ache $F = \frac{1}{2}(4 \cdot 5)$ (Skizze!)
+  \item[(b)] $A=(3,5),B=(-4,1),C=(5,6):$\\ \\
+              $\vec{a}=\left(\begin{array}{r} -4-3 \\ 1-5 \end{array}\right)
+              =\left(\begin{array}{r} -7 \\ -4 \end{array}\right)\Rightarrow
+              \,\vert\vec{a}\vert=\sqrt{65}$, \\
+              $\vec{b}=\left(\begin{array}{r} 5+4 \\ 6-1 \end{array}\right)
+              = \left(\begin{array}{r} 9 \\ 5 \end{array}\right)\Rightarrow
+              \,\vert\vec{b}\vert=\sqrt{106}$, \\
+              $\vec{c}=\left(\begin{array}{r} 3-5 \\ 5-6 \end{array}\right)
+              =\left(\begin{array}{r} -2 \\ -1 \end{array}\right)\Rightarrow
+              \,\vert\vec{c}\vert=\sqrt{5}$\\ \\
+              Erweitere zwei der Vektoren zu Vektoren in $\mathbb{R}^3$:\\ \\
+              Fl\"ache $F = \frac{1}{2}\cdot\vert \left(\begin{array}{r} \vec{a}  \\ 0 \end{array}\right)\times \left(\begin{array}{r} \vec{b}  \\ 0 \end{array}\right) \vert
+              =\frac{1}{2}\cdot\vert \left( \begin{array}{r} 0 \\ 0 \\ -35+36\end{array}\right) \vert 
+              =\frac{1}{2}$\\ \\
+              Die Fl\"ache kann mit beliebiger Vektorwahl berechnet werden, wir bekommen immer das gleiche Ergebnis!
+  \end{enumerate}
+\end{exercise}
+
+\vspace{0.1cm}   
+
+\begin{exercise}
+  Berechnen Sie die Fl\"ache des durch $\vec{u}$ und $\vec{v}$ aufgespannten Dreiecks f\"ur \, \\ \\
+  $\vec{u}=\left(\begin{array}{r} 1 \\ 1 \\ 1 \end{array}\right)$ und
+  $\vec{v}=\left(\begin{array}{r} 4 \\ 2 \\ 4 \end{array}\right)$.\\ \\ \\
+  Fl\"ache 
+  $A = \frac{1}{2}\cdot\vert \left(\begin{array}{r} 1 \\ 1 \\ 1 \end{array}\right)\times \left(\begin{array}{r} 4 \\ 2 \\ 4 \end{array}\right) \vert
+  = \frac{1}{2}\cdot\vert \left(\begin{array}{r} 2 \\ 0 \\ -2 \end{array}\right)\vert
+  = \frac{1}{2} \sqrt{8} = \sqrt{2}$\\ \\
+
+\end{exercise}
+
+
+
+\end{document}
