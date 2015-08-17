@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.24)  17 AUG 2015 09:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.24)  17 AUG 2015 12:41
 entering extended mode
 **Lsg2.tex
 
-(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\Lehre\
-BrückenkursFH\neueTutorien\Tutorium2\Lsg2.tex
+(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\MathTu
+torials\Tutorium2\Lsg2.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -228,8 +228,8 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 )
 \c@satz=\count113
 
-(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\Lehre\
-BrückenkursFH\neueTutorien\Tutorium2\Lsg2.aux)
+(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\MathTu
+torials\Tutorium2\Lsg2.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
@@ -270,39 +270,33 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 17--26
 []$[]$
  []
 
-
-Overfull \hbox (4.62672pt too wide) in paragraph at lines 83--86
-[]$[] \OT1/cmr/m/n/12 == []$ 
- []
-
 [1
 
 {C:/Users/Xenia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\Lehre\
-BrückenkursFH\neueTutorien\Tutorium2\Lsg2.aux) ) 
+(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\MathTu
+torials\Tutorium2\Lsg2.aux) ) 
 Here is how much of TeX's memory you used:
  2413 strings out of 494045
- 30858 string characters out of 3148386
+ 30718 string characters out of 3148386
  93649 words of memory out of 3000000
  5685 multiletter control sequences out of 15000+200000
  10151 words of font info for 38 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  34i,7n,24p,261b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb>
-Output written on Lsg2.pdf (2 pages, 154490 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Lsg2.pdf (2 pages, 154487 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

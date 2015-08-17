@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.24)  19 JUL 2015 16:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.24)  17 AUG 2015 12:21
 entering extended mode
-**Tutorium3.tex
+**Tutorium4.tex
 
-(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\Lehre\
-BrückenkursFH\neueTutorien\Tutorium3\Tutorium3.tex
+(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\MathTu
+torials\Tutorium4\Tutorium4.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -228,8 +228,8 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 )
 \c@satz=\count113
 
-(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\Lehre\
-BrückenkursFH\neueTutorien\Tutorium3\Tutorium3.aux)
+(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\MathTu
+torials\Tutorium4\Tutorium4.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
@@ -273,33 +273,33 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 17--26
 [1
 
 {C:/Users/Xenia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (1.56535pt too wide) in paragraph at lines 101--102
+Overfull \hbox (1.56535pt too wide) in paragraph at lines 113--114
 \OT1/cmr/bx/n/12 Aufgabe 8. \OT1/cmr/m/it/12 Bes-tim-men Sie erst Am-pli-tude, 
 Pe-ri-ode und Phasen-ver-schiebung
  []
 
 [2]
-(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\Lehre\
-BrückenkursFH\neueTutorien\Tutorium3\Tutorium3.aux) ) 
+(C:\Users\Xenia\Documents\Hochschulen\UniversityOfAppliedSciencesAndArts\MathTu
+torials\Tutorium4\Tutorium4.aux) ) 
 Here is how much of TeX's memory you used:
  2412 strings out of 494045
- 30900 string characters out of 3148386
+ 30760 string characters out of 3148386
  87649 words of memory out of 3000000
  5684 multiletter control sequences out of 15000+200000
  10151 words of font info for 38 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  34i,5n,24p,266b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Tutorium3.pdf (2 pages, 121928 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb>
+Output written on Tutorium4.pdf (2 pages, 121253 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
